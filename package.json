@@ -1,0 +1,14 @@
+{
+  "name": "mlautr-portfolio",
+  "version": "1.0.0",
+  "description": "Portfolio et CV de Mathis Laurent",
+  "main": "index.js",
+  "scripts": {
+    "dev": "python3 -m http.server 8000",
+    "build": "echo 'Ready for deployment'",
+    "deploy": "git push origin main"
+  },
+  "keywords": ["portfolio", "cv"],
+  "author": "Mathis Laurent",
+  "license": "MIT"
+}

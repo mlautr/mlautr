@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio et CV de Mathis Laurent ">
+    <title>Mathis Laurent - Portfolio</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">ML</div>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#accueil" class="nav-link">Accueil</a></li>
+                <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+                <li><a href="#cv" class="nav-link">CV</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="accueil" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Mathis Laurent</h1>
+                <p class="hero-subtitle">Tech enjoyer | Portfolio & CV</p>
+                <p class="hero-description">Bienvenue sur mon portfolio. Découvrez mes projets et mon parcours.</p>
+                <div class="hero-cta">
+                    <a href="#portfolio" class="btn btn-primary">Voir mes projets</a>
+                    <a href="#contact" class="btn btn-secondary">Me contacter</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <h2>Portfolio</h2>
+            <p class="section-subtitle">Mes derniers projets</p>
+            
+            <div class="projects-grid" id="projectsGrid">
+                <!-- Les projets seront chargés ici via JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- CV Section -->
+    <section id="cv" class="cv-section">
+        <div class="container">
+            <h2>CV</h2>
+            <p class="section-subtitle">Parcours professionnel et compétences</p>
+            
+            <div class="cv-content">
+                <div class="cv-column">
+                    <h3>Expérience</h3>
+                    <div class="cv-item">
+                        <h4>Titre du poste</h4>
+                        <p class="cv-company">Entreprise | 2023 - Présent</p>
+                        <p class="cv-description">Description de vos responsabilités et réalisations.</p>
+                    </div>
+                    <div class="cv-item">
+                        <h4>Titre du poste précédent</h4>
+                        <p class="cv-company">Ancienne entreprise | 2021 - 2023</p>
+                        <p class="cv-description">Description de vos responsabilités et réalisations.</p>
+                    </div>
+                </div>
+
+                <div class="cv-column">
+                    <h3>Compétences</h3>
+                    <div class="skills">
+                        <div class="skill-tag">HTML/CSS</div>
+                        <div class="skill-tag">JavaScript</div>
+                        <div class="skill-tag">Python</div>
+                        <div class="skill-tag">Git</div>
+                    </div>
+
+                    <h3 style="margin-top: 2rem;">Formation</h3>
+                    <div class="cv-item">
+                        <h4>Titre de la formation</h4>
+                        <p class="cv-company">École / Université | Année</p>
+                        <p class="cv-description">Description de vos études.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="cv-download">
+                <a href="assets/cv.pdf" class="btn btn-primary" download>Télécharger mon CV (PDF)</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact</h2>
+            <p class="section-subtitle">Prenez contact avec moi</p>
+            
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <a href="mailto:your.email@example.com">your.email@example.com</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h4>Téléphone</h4>
+                            <a href="tel:+33612345678">+33 6 12 34 56 78</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Localisation</h4>
+                            <p>Votre ville, France</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="social-links">
+                    <a href="https://github.com/mlautr" target="_blank" class="social-btn">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://linkedin.com/in/yourprofile" target="_blank" class="social-btn">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="https://gitlab.com/yourprofile" target="_blank" class="social-btn">
+                        <i class="fab fa-gitlab"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Mathis Laurent. Tous droits réservés.</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
